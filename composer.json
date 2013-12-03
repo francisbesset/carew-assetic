@@ -1,0 +1,26 @@
+{
+    "name": "francisbesset/carew-assetic",
+    "description": "Assetic plugin for carew",
+    "license": "MIT",
+    "homepage": "https://github.com/francisbesset/carew-assetic",
+    "keywords": [ "carew", "assetic" ],
+    "authors": [
+        {
+            "name": "Francis Besset",
+            "email": "francis.besset@gmail.com"
+        }
+    ],
+    "require": {
+        "carew/carew": "~2.0@dev",
+        "kriswallsmith/assetic": "~1.1"
+    },
+    "autoload": {
+        "psr-0": { "FrancisBesset\\Carew\\Assetic": "" }
+    },
+    "target-dir": "FrancisBesset/Carew/Assetic",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
